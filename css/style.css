@@ -22,6 +22,25 @@
 *****************************/
 @font-face {
     font-family: 'Commissioner';
+    src: url('../fonts/../fonts/Commissioner-ExtraBold.ttf');
+    src: local('Commissioner ExtraBold'), local('../fonts/Commissioner-ExtraBold'),
+    url('../fonts/../fonts/Commissioner-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Light.ttf');
+    src: local('Commissioner Light'), local('../fonts/Commissioner-Light'),
+    url('../fonts/Commissioner-Light.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/Commissioner-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
     src: url('../fonts/Commissioner-Bold.ttf');
     src: local('Commissioner Bold'), local('../fonts/Commissioner-Bold'),
     url('../fonts/Commissioner-Bold.ttf?#iefix') format('embedded-opentype'),
@@ -37,6 +56,26 @@
     url('../fonts/Commissioner-Medium.ttf?#iefix') format('embedded-opentype'),
     url('../fonts/Commissioner-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-ExtraLight.ttf');
+    src: local('Commissioner ExtraLight'), local('../fonts/Commissioner-ExtraLight'),
+    url('../fonts/Commissioner-ExtraLight.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/Commissioner-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Black.ttf');
+    src: local('Commissioner Black'), local('../fonts/Commissioner-Black'),
+    url('../fonts/Commissioner-Black.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/Commissioner-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -60,6 +99,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../fonts/Commissioner-Thin.ttf');
+    src: local('Commissioner Thin'), local('../fonts/Commissioner-Thin'),
+    url('../fonts/Commissioner-Thin.ttf?#iefix') format('embedded-opentype'),
+    url('../fonts/Commissioner-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
 
 
 body {
@@ -355,7 +403,7 @@ a {
 
 .nabar-light.nav-sticky {
     padding: 15px 0px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);   
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light.small {
@@ -487,7 +535,7 @@ a {
 }
 
 /*-----------------
-    HOME -9 
+    HOME -9
 ------------------*/
 
 .bg-gradiant {
@@ -1054,10 +1102,10 @@ ul.pattern .color6 {
     transform: skew(20deg);
     animation: slide 3s infinite;
 }
-.home-up  h1{
+.home-up h1{
     margin-top: 130px;
     font-weight: 600;
-    font-size: 65px;
+    font-size: 46px;
     line-height: 130%;
     color: #404040;
 }
@@ -1102,9 +1150,9 @@ ul.pattern .color6 {
 }
 .about p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
-    color: #A0A0A0;
+    color: #3D3333;
     margin-top: 30px;
 }
 .about ul {
@@ -1113,7 +1161,7 @@ ul.pattern .color6 {
 }
 .about ul li {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 35px;
     color: #404040;
     list-style: none;
