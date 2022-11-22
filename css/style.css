@@ -1248,6 +1248,8 @@ ul.pattern .color6 {
 }
 .course-item img {
     width: 100%;
+    min-height: 284px;
+    object-fit: cover;
 }
 .course-item h5 {
     font-weight: 600;
@@ -1257,6 +1259,7 @@ ul.pattern .color6 {
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    overflow: hidden;
 }
 .course-item p {
     font-weight: 400;
