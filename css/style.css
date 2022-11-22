@@ -1269,10 +1269,9 @@ ul.pattern .color6 {
     padding-right: 15px;
 }
 .course-item {
-    width: 270px;
     background: #FFFFFF;
     border-radius: 10px;
-    margin: 15px;
+    margin: 15px 0;
     min-height: 525px;
     display: flex;
     flex-direction: column;

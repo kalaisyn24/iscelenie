@@ -47,19 +47,6 @@
     paginationSpeed: 400,
     singleItem: true,
   });
-
-  $("#services-carousel").owlCarousel({
-    items:2,
-    autoWidth:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true,
-
-    nav: true,
-    navText: [
-        '<button class="arrow-slide"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.42188 10.59L2.83188 6L7.42188 1.41L6.00188 1.84528e-06L0.00187614 6L6.00188 12L7.42188 10.59Z" fill="#ABABAB"/></svg></button>',
-        '<button class="arrow-slide rotate-btn"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.42188 10.59L2.83188 6L7.42188 1.41L6.00188 1.84528e-06L0.00187614 6L6.00188 12L7.42188 10.59Z" fill="#ABABAB"/></svg></button>'
-    ]
-  });
   $(".slider-container").owlCarousel({
     items:1,
     autoWidth: true,
