@@ -3,7 +3,7 @@
 <?php
 
 
-
+header("Access-Control-Allow-Origin: *");
 $method = $_SERVER['REQUEST_METHOD'];
 
 //Script Foreach
