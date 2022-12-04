@@ -113,16 +113,19 @@
   });
 })(jQuery);
 
+
+
 $(document).ready(function() {
+
   //E-mail Ajax Send
   $("form").submit(function() { //Change
     var th = $(this);
     $.ajax({
       type: "POST",
-      url: "mail.php",
+      url: "../mail.php", //Change
       data: th.serialize()
     }).done(function() {
-      alert("Спасибо. Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.");
+      alert("Спасибо за заявку, мы свяжемся с вами в течение 15 минут.")
       setTimeout(function() {
         // Done Functions
         th.trigger("reset");
@@ -130,4 +133,5 @@ $(document).ready(function() {
     });
     return false;
   });
+
 });
