@@ -119,7 +119,7 @@ $(document).ready(function() {
     var th = $(this);
     $.ajax({
       type: "POST",
-      url: "../mail.php",
+      url: "mail.php",
       data: th.serialize()
     }).done(function() {
       alert("Спасибо. Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.");
