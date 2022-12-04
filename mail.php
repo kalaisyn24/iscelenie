@@ -43,14 +43,6 @@ function adopt($text) {
     return '=?UTF-8?B?'.Base64_encode($text).'?=';
 }
 
-$headers = "MIME-Version: 1.0" . PHP_EOL .
-    "Content-Type: text/html; charset=utf-8" . PHP_EOL .
-    'From: '.adopt($project_name).' <'.$admin_email.'>' . PHP_EOL .
-    'Reply-To: '.$admin_email.'' . PHP_EOL;
-
-mail($admin_email, adopt($form_subject), $message, $headers );
-
-
 function sendMessage($chatID, $messaggio, $token) {
 
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
@@ -70,4 +62,12 @@ function sendMessage($chatID, $messaggio, $token) {
 $token = "1909873839:AAHgTlIa2SAmVlgRmBpvL7m1YxEerVhSA3U";
 $chatid = "-1001625853568";
 sendMessage($chatid, $telegram, $token);
+
+$headers = "MIME-Version: 1.0" . PHP_EOL .
+    "Content-Type: text/html; charset=utf-8" . PHP_EOL .
+    'From: '.adopt($project_name).' <'.$admin_email.'>' . PHP_EOL .
+    'Reply-To: '.$admin_email.'' . PHP_EOL;
+
+mail($admin_email, adopt($form_subject), $message, $headers );
+
 ?>
