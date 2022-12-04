@@ -68,6 +68,6 @@ function sendMessage($chatID, $messaggio, $token) {
 
 
 $token = "1909873839:AAHgTlIa2SAmVlgRmBpvL7m1YxEerVhSA3U";
-$chatid = "-1001625853568";
+$chatid = "-1001814921764";
 sendMessage($chatid, $telegram, $token);
 ?>
