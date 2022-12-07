@@ -1819,3 +1819,15 @@ footer p {
     }
 
 }
+.social-container .gold-btn {
+    margin-top: 0;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login-btn {
+    margin-top: 15px;
+}
