@@ -1831,3 +1831,15 @@ footer p {
 .login-btn {
     margin-top: 15px;
 }
+.faq h2 {
+    text-align: center;
+    color: #0b0b0b;
+    margin-bottom: 50px;
+}
+.faq button, .faq button:hover {
+    color: #0b0b0b;
+}
+
+.card-header {
+    background-color: rgb(242, 247, 251);
+}
