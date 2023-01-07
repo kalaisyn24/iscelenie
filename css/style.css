@@ -1849,3 +1849,6 @@ footer p {
 .modal-reviews {
     cursor: pointer;
 }
+.faq button {
+    white-space: inherit;
+}
