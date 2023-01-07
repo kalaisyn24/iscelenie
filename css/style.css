@@ -1697,7 +1697,7 @@ footer p {
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
-    .top-phone, .navbar-toggler {
+    .nav-text, .top-phone {
         display: none;
     }
     .home-up h1 {
