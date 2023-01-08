@@ -37,7 +37,9 @@
         "easeInOutExpo"
       );
     event.preventDefault();
+    $('.navbar-collapse').collapse('hide');
   });
+
 
   //Owl Carousel
   $("#owl-demo-cs-testi").owlCarousel({

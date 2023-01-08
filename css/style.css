@@ -1712,7 +1712,10 @@ footer p {
         padding: 10px 0px !important;
     }
     .navbar-custom .container {
-        width: 90%;
+        width: 100%;
+    }
+    .logo img {
+        height: 40px;
     }
     .home-title {
         font-size: 38px;
