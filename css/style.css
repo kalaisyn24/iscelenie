@@ -1697,6 +1697,12 @@ footer p {
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
+    .carousel-cont {
+        margin: 0 !important;
+    }
+    #services-carousel {
+        width: auto;
+    }
     .nav-text, .top-phone {
         display: none;
     }
